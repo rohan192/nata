@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
-import joblib, json, os
+import joblib
+import json
+import os
 
 st.set_page_config(page_title='NATA Supermarket Spend Prediction App', layout='centered')
 st.title('NATA Supermarket')
@@ -174,3 +176,4 @@ if st.button('Predict Total Spend'):
                 st.write(X_pred.T)
         except Exception as e:
             st.error(f'Prediction failed: {e}')
+
