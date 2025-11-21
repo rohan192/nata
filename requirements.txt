@@ -264,7 +264,7 @@ jeepney==0.9.0
 jieba==0.42.1
 Jinja2==3.1.6
 jiter==0.12.0
-joblib==1.3.2
+joblib==1.4.2
 jsonpatch==1.33
 jsonpickle==4.1.1
 jsonpointer==3.0.0
@@ -573,6 +573,7 @@ sse-starlette==3.0.3
 stanio==0.5.1
 starlette==0.50.0
 statsmodels==0.14.5
+streamlit==1.28.0
 stringzilla==4.2.3
 stumpy==1.13.0
 sympy==1.13.3
